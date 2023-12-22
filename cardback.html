@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        .card-container {
+            display: flex;
+            gap: 20px;
+        }
+
+        .card-back-main {
+            position: relative;
+            width: 750px;
+            height: 1050px;
+            background-color: rgb(241, 238, 238);
+            overflow: hidden;
+            /* Add overflow: hidden to contain absolute positioned elements */
+        }
+
+        .img-header-div {
+            position: relative;
+        }
+
+        .img-header-div img {
+            width: 100%;
+            height: auto;
+        }
+
+        .text-content {
+            margin: 10px 0 30px 10px;
+            padding: 20px;
+        }
+
+        .validity-div {
+            width: 198px;
+            height: 197px;
+            background-color: #b01c54;
+            border-radius: 10px;
+
+        }
+        .bottom-right-img {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="card-container">
+        <div class="card-back-main">
+            <div class="img-header-div">
+                <img src="./assets/id card back layers png images/mtm-student-ID-Card-back-header.png" alt="Your Image">
+            </div>
+            <div class="text-content">
+                <div style="display: flex; align-items: center; gap: 50px; height: 20px; margin-bottom: 10px;">
+                    <h3>Branch Name:</h3>
+                    <p>Arshi</p>
+                </div>
+                <div style="display: flex; align-items: center; gap: 50px; height: 20px; margin-bottom: 10px;">
+                    <h4>Address:</h4>
+                    <p>Plot # 123, abc, abc</p>
+                </div>
+                <div style="display: flex; align-items: center; gap: 50px; height: 20px; margin-bottom: 10px;">
+                    <h4>Contact of Father/Guardian:</h4>
+                    <p>012345678911</p>
+                </div>
+            </div>
+            <div style="display: flex; align-items: self-end; justify-content: center; gap: 15px;">
+                <div class="validity-div">
+                    <h2 style="margin-top: 0; text-align: center; padding-top: 15px; color: #fff;">Validity:</h2>
+                    <div style="text-align: center; color: #fff;">
+                        <p>Februray</p>
+                        <p>to</p>
+                        <p>January</p>
+                    </div>
+                </div>
+                <div style="">
+                    <img src="./assets/id card back layers png images/mtm-student-ID-Card-back-HOD.png"
+                        alt="signature-img">
+                </div>
+            </div>
+            <div style="display: flex; justify-content: center; padding-top: 30px;">
+                <img src="./assets/id card back layers png images/mtm-student-ID-Card-back-URDU-TEXT.png" alt="">
+            </div>
+            <div class="bottom-right-img">
+                <img src="./assets/id card back layers png images/mtm-student-ID-Card-back-footer.png" alt="Your Image">
+            </div>
+        </div>
+        <div class="card-back-main"></div>
+    </div>
+</body>
+
+</html>
